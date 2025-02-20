@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>JayHrn</title>
+  
+  <subtitle>技术之旅，生活拾光</subtitle>
+  <link href="https://blog.jayhrn.cn/atom.xml" rel="self"/>
+  
+  <link href="https://blog.jayhrn.cn/"/>
+  <updated>2025-02-08T14:06:51.000Z</updated>
+  <id>https://blog.jayhrn.cn/</id>
+  
+  <author>
+    <name>JayHrn</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>博客基本组件样式</title>
+    <link href="https://blog.jayhrn.cn/posts/1ed28e411d5e.html"/>
+    <id>https://blog.jayhrn.cn/posts/1ed28e411d5e.html</id>
+    <published>2025-02-08T14:06:51.000Z</published>
+    <updated>2025-02-08T14:06:51.000Z</updated>
+    
+    
+    <summary type="html">主要分享了本主题的一些插件、组件的样式</summary>
+    
+    
+    
+    <category term="经验分享" scheme="https://blog.jayhrn.cn/categories/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="博客" scheme="https://blog.jayhrn.cn/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何加速git clone下载速度，为你的git添加代理加速访问</title>
+    <link href="https://blog.jayhrn.cn/posts/3f28bebfea81.html"/>
+    <id>https://blog.jayhrn.cn/posts/3f28bebfea81.html</id>
+    <published>2023-12-17T09:11:31.000Z</published>
+    <updated>2024-10-07T06:26:08.000Z</updated>
+    
+    
+    <summary type="html">作者通过为git设置代理加速git clone时候的访问速度，具体的操作主要是为git设置http代理即可实现。</summary>
+    
+    
+    
+    <category term="经验分享" scheme="https://blog.jayhrn.cn/categories/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="教程" scheme="https://blog.jayhrn.cn/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="必看" scheme="https://blog.jayhrn.cn/tags/%E5%BF%85%E7%9C%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>一场落雪 、白了眉眼 、醉了人间</title>
+    <link href="https://blog.jayhrn.cn/posts/47c97b7aa9bd.html"/>
+    <id>https://blog.jayhrn.cn/posts/47c97b7aa9bd.html</id>
+    <published>2023-04-02T05:43:15.000Z</published>
+    <updated>2023-04-02T05:43:16.000Z</updated>
+    
+    
+    <summary type="html">一场落雪 、白了眉眼 、醉了人间</summary>
+    
+    
+    
+    <category term="生活日常" scheme="https://blog.jayhrn.cn/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/"/>
+    
+    
+    <category term="语录" scheme="https://blog.jayhrn.cn/tags/%E8%AF%AD%E5%BD%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>揽人间烟火，静待一树花开</title>
+    <link href="https://blog.jayhrn.cn/posts/b885ca17078b.html"/>
+    <id>https://blog.jayhrn.cn/posts/b885ca17078b.html</id>
+    <published>2023-01-15T12:14:15.000Z</published>
+    <updated>2023-02-23T08:06:25.000Z</updated>
+    
+    
+    <summary type="html">人间总有一两风，填我十万八千梦</summary>
+    
+    
+    
+    <category term="生活日常" scheme="https://blog.jayhrn.cn/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/"/>
+    
+    
+    <category term="语录" scheme="https://blog.jayhrn.cn/tags/%E8%AF%AD%E5%BD%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>npm如何发包：npm发包的基本教程</title>
+    <link href="https://blog.jayhrn.cn/posts/4e4fb435e91a.html"/>
+    <id>https://blog.jayhrn.cn/posts/4e4fb435e91a.html</id>
+    <published>2022-11-11T13:19:01.000Z</published>
+    <updated>2025-01-16T11:19:01.000Z</updated>
+    
+    
+    <summary type="html">如何在短时间内学会发包，这一篇文章就够了</summary>
+    
+    
+    
+    <category term="经验分享" scheme="https://blog.jayhrn.cn/categories/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="教程" scheme="https://blog.jayhrn.cn/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="必看" scheme="https://blog.jayhrn.cn/tags/%E5%BF%85%E7%9C%8B/"/>
+    
+    <category term="npm" scheme="https://blog.jayhrn.cn/tags/npm/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>一言语录</title>
+    <link href="https://blog.jayhrn.cn/posts/4be4e2f1e9c7.html"/>
+    <id>https://blog.jayhrn.cn/posts/4be4e2f1e9c7.html</id>
+    <published>2022-08-15T08:41:28.000Z</published>
+    <updated>2022-08-15T08:41:28.000Z</updated>
+    
+    
+    <summary type="html">收录一些具有的语句</summary>
+    
+    
+    
+    <category term="生活日常" scheme="https://blog.jayhrn.cn/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/"/>
+    
+    
+    <category term="语录" scheme="https://blog.jayhrn.cn/tags/%E8%AF%AD%E5%BD%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Markdown基础教程</title>
+    <link href="https://blog.jayhrn.cn/posts/bdbf0185e3df.html"/>
+    <id>https://blog.jayhrn.cn/posts/bdbf0185e3df.html</id>
+    <published>2022-07-27T11:26:34.000Z</published>
+    <updated>2025-01-16T13:01:02.000Z</updated>
+    
+    
+    <summary type="html">关于Markdown语法的基本内容</summary>
+    
+    
+    
+    <category term="经验分享" scheme="https://blog.jayhrn.cn/categories/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="Markdown" scheme="https://blog.jayhrn.cn/tags/Markdown/"/>
+    
+  </entry>
+  
+</feed>
