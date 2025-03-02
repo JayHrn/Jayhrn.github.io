@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Markdown基础教程</title>
+    <url>/posts/bdbf0185e3df.html</url>
+    <content><![CDATA[<p>Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。</p>
+<p>Markdown 语言在 2004 由约翰·格鲁伯（英语：John Gruber）创建。</p>
+<p>Markdown 编写的文档可以导出 HTML 、Word、图像、PDF、Epub 等多种格式的文档。</p>
+<p>Markdown 编写的文档后缀为 <strong>.md</strong>, <strong>.markdown</strong>。</p>
+<h2 id="Markdown-应用"><a href="#Markdown-应用" class="headerlink" title="Markdown 应用"></a>Markdown 应用</h2><p>Markdown 能被使用来撰写电子书，如：Gitbook。</p>
+<p>当前许多网站都广泛使用 Markdown 来撰写帮助文档或是用于论坛上发表消息。例如：GitHub、简书、reddit、Diaspora、Stack Exchange、OpenStreetMap 、SourceForge 等。</p>
+<h2 id="Markdown-基础"><a href="#Markdown-基础" class="headerlink" title="Markdown 基础"></a>Markdown 基础</h2><h3 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h3><p>使用 <code>#</code> 号标记</p>
+<p>使用 <code>#</code> 号可表示 1-6 级标题，一级标题对应一个 <code>#</code> 号，二级标题对应两个 <code>#</code> 号，以此类推。</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="section"># 一级标题</span></span><br><span class="line"></span><br><span class="line"><span class="section">## 二级标题</span></span><br><span class="line"></span><br><span class="line"><span class="section">### 三级标题</span></span><br><span class="line"></span><br><span class="line"><span class="section">#### 四级标题</span></span><br><span class="line"></span><br><span class="line"><span class="section">##### 五级标题</span></span><br><span class="line"></span><br><span class="line"><span class="section">###### 六级标题</span></span><br></pre></td></tr></table></figure>
+
+<p>显示效果如下图：</p>
+<p><img src="/img/posts/2022/0727/001.webp" alt="标题"></p>
+<h3 id="段落"><a href="#段落" class="headerlink" title="段落"></a>段落</h3><p>Markdown 段落没有特殊的格式，直接编写文字就好，<strong>段落的换行是使用两个以上空格加上回车</strong>。</p>
+<p>当然也可以在段落后面使用一个空行来表示重新开始一个段落。</p>
+<h4 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h4><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="emphasis">_斜体文本_</span></span><br><span class="line"><span class="emphasis">_斜体文本_</span></span><br><span class="line"><span class="strong">**粗体文本**</span></span><br><span class="line"><span class="strong">**粗体文本**</span></span><br><span class="line"><span class="strong">**<span class="emphasis">_粗斜体文本_</span>**</span></span><br><span class="line"><span class="strong">**<span class="emphasis">_粗斜体文本_</span>**</span></span><br></pre></td></tr></table></figure>
+
+<p>显示效果如下所示：</p>
+<ol>
+<li><p><em>斜体文本</em></p>
+</li>
+<li><p><em>斜体文本</em></p>
+</li>
+<li><p><strong>粗体文本</strong></p>
+</li>
+<li><p><strong>粗体文本</strong></p>
+</li>
+<li><p><strong><em>粗斜体文本</em></strong></p>
+</li>
+<li><p><strong><em>粗斜体文本</em></strong></p>
+</li>
+</ol>
+<h4 id="分隔线"><a href="#分隔线" class="headerlink" title="分隔线"></a>分隔线</h4><p>你可以在一行中用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他东西。你也可以在星号或是减号中间插入空格。下面每种写法都可以建立分隔线：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="section">---</span></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+
+<p>显示效果如下所示：</p>
+<hr>
+<h4 id="删除线"><a href="#删除线" class="headerlink" title="删除线"></a>删除线</h4><p>如果段落上的文字要添加删除线，只需要在文字的两端加上两个波浪线 <code>~~</code> 即可，实例如下：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">LVHRN.CN</span><br><span class="line">GOOGLE.COM</span><br><span class="line">~~BAIDU.COM~~</span><br></pre></td></tr></table></figure>
+
+<p>显示效果如下所示：</p>
+<p><del>我是删除线</del></p>
+<h4 id="下划线"><a href="#下划线" class="headerlink" title="下划线"></a>下划线</h4><p>下划线可以通过 HTML 的 <code>&lt;u&gt;</code> 标签来实现：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">u</span>&gt;</span></span>带下划线文本<span class="language-xml"><span class="tag">&lt;/<span class="name">u</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
+
+<p>显示效果如下所示：</p>
+<p><u>带下划线文本</u></p>
+<h3 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h3><p>Markdown 支持有序列表和无序列表。</p>
+<p>无序列表使用星号(<code>*</code>)、加号(<code>+</code>)或是减号(<code>-</code>)作为列表标记，这些标记后面要添加一个空格，然后再填写内容：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="bullet">-</span> 第一项</span><br><span class="line"><span class="bullet">-</span> 第二项</span><br><span class="line"><span class="bullet">-</span> 第三项</span><br><span class="line"></span><br><span class="line"><span class="bullet">*</span> 第一项</span><br><span class="line"><span class="bullet">*</span> 第二项</span><br><span class="line"><span class="bullet">*</span> 第三项</span><br><span class="line"></span><br><span class="line"><span class="bullet">-</span> 第一项</span><br><span class="line"><span class="bullet">-</span> 第二项</span><br><span class="line"><span class="bullet">-</span> 第三项</span><br></pre></td></tr></table></figure>
+
+<p>显示结果如下：</p>
+<ul>
+<li>星号第一项</li>
+<li>星号第二项</li>
+<li>星号第三项</li>
+</ul>
+<ul>
+<li>加号第一项</li>
+<li>加号第二项</li>
+<li>加号第三项</li>
+</ul>
+<ul>
+<li>减号第一项</li>
+<li>减号第二项</li>
+<li>减号第三项</li>
+</ul>
+<p>有序列表使用数字并加上 <code>.</code> 号来表示，如：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="bullet">1.</span> 第一项</span><br><span class="line"><span class="bullet">2.</span> 第二项</span><br><span class="line"><span class="bullet">3.</span> 第三项</span><br></pre></td></tr></table></figure>
+
+<p>显示结果如下：</p>
+<ol>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
+</ol>
+<h4 id="列表嵌套"><a href="#列表嵌套" class="headerlink" title="列表嵌套"></a>列表嵌套</h4><p>列表嵌套只需在子列表中的选项前面添加四个空格即可：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="bullet">1.</span> 第一项：</span><br><span class="line"><span class="bullet">   -</span> 第一项嵌套的第一个元素</span><br><span class="line"><span class="bullet">   -</span> 第一项嵌套的第二个元素</span><br><span class="line"><span class="bullet">2.</span> 第二项：</span><br><span class="line"><span class="bullet">   -</span> 第二项嵌套的第一个元素</span><br><span class="line"><span class="bullet">   -</span> 第二项嵌套的第二个元素</span><br></pre></td></tr></table></figure>
+
+<p>显示结果如下：</p>
+<ol>
+<li>第一项：<ul>
+<li>第一项嵌套的第一个元素</li>
+<li>第二项嵌套的第二个元素</li>
+</ul>
+</li>
+<li>第二项：<ul>
+<li>第二项嵌套的第一个元素</li>
+<li>第二项嵌套的第二个元素</li>
+</ul>
+</li>
+</ol>
+<h3 id="区块"><a href="#区块" class="headerlink" title="区块"></a>区块</h3><p>Markdown 区块引用是在段落开头使用 <code>&gt;</code> 符号 ，然后后面紧跟一个<strong>空格</strong>符号：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="quote">&gt; 区块引用</span></span><br><span class="line"><span class="quote">&gt; 追风赶月, 心向阳开</span></span><br></pre></td></tr></table></figure>
+
+<p>显示结果如下：</p>
+<blockquote>
+<p>区块引用</p>
+<p>追风赶月, 心向阳开</p>
+</blockquote>
+<p>区块是可以嵌套的，一个 <code>&gt;</code> 符号是最外层，两个 <code>&gt;</code> 符号是第一层嵌套，以此类推：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt; 第一层</span><br><span class="line">&gt; &gt; 第二层嵌套</span><br><span class="line">&gt; &gt; &gt; 第三层嵌套</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>第一层</p>
+<blockquote>
+<p>第二次嵌套</p>
+<blockquote>
+<p>第三次嵌套</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<h4 id="区块中使用列表"><a href="#区块中使用列表" class="headerlink" title="区块中使用列表"></a>区块中使用列表</h4><p>区块中使用列表实例如下：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="quote">&gt; 区块中使用列表</span></span><br><span class="line"><span class="quote">&gt;</span></span><br><span class="line"><span class="quote">&gt; 1. 第一项</span></span><br><span class="line"><span class="quote">&gt; 2. 第二项</span></span><br><span class="line"><span class="quote">&gt;</span></span><br><span class="line"><span class="quote">&gt; - 第一项</span></span><br><span class="line"><span class="quote">&gt; - 第二项</span></span><br><span class="line"><span class="quote">&gt; - 第三项</span></span><br></pre></td></tr></table></figure>
+
+<p>显示结果如下：</p>
+<blockquote>
+<p>区块中使用列表</p>
+<ol>
+<li>第一项</li>
+<li>第二项</li>
+</ol>
+<ul>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
+</ul>
+</blockquote>
+<h4 id="列表中使用区块"><a href="#列表中使用区块" class="headerlink" title="列表中使用区块"></a>列表中使用区块</h4><p>如果要在列表项目内放进区块，那么就需要在 <strong>&gt;</strong> 前添加四个空格的缩进。</p>
+<p>列表中使用区块实例如下：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="bullet">-</span> 第一项</span><br><span class="line">  &gt; 列表中使用区块</span><br><span class="line">  &gt; 追风赶月, 心向阳开</span><br><span class="line"><span class="bullet">-</span> 第二项</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><p>第一项</p>
+<blockquote>
+<p>列表中使用区块</p>
+<p>追风赶月, 心向阳开</p>
+</blockquote>
+</li>
+<li><p>第二项</p>
+</li>
+</ul>
+<h3 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h3><p>如果是段落上的一个函数或片段的代码可以用反引号把它包起来（<code>`</code>），例如：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="code">`printf()`</span> 函数</span><br></pre></td></tr></table></figure>
+
+<p>显示结果如下：</p>
+<p><code>printf()</code></p>
+<h4 id="内联代码中包含反引号"><a href="#内联代码中包含反引号" class="headerlink" title="内联代码中包含反引号"></a>内联代码中包含反引号</h4><p>例如，你想输入<code>这段代码中包含</code>符号<code>`</code>，那么你应该这么输入：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="code">`` 这段代码中包含`</span>符号 ``</span><br></pre></td></tr></table></figure>
+
+<h4 id="内联代码中只有反引号"><a href="#内联代码中只有反引号" class="headerlink" title="内联代码中只有反引号"></a>内联代码中只有反引号</h4><p>例如，你希望输入<code>`</code>，那么你应该这么输入：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="code">`` `</span> ``</span><br></pre></td></tr></table></figure>
+
+<p>注意，这里有 5 个<code>`</code> 符号，其中前后各两个<code>`</code> 是代码块的开始和结束符，中间的<code>`</code>则是代码块中的 <code>`</code>符号，代码块和内容之间必须有空格。</p>
+<h4 id="代码区块"><a href="#代码区块" class="headerlink" title="代码区块"></a>代码区块</h4><p>代码区块使用 <strong>&#96;&#96;&#96;</strong> 包裹一段代码，并指定一种语言（也可以不指定）：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="code">```javascript</span></span><br><span class="line"><span class="code">$(document).ready(function () &#123;</span></span><br><span class="line"><span class="code">  alert(&quot;Hello Markdown&quot;);</span></span><br><span class="line"><span class="code">&#125;);</span></span><br><span class="line"><span class="code">```</span></span><br></pre></td></tr></table></figure>
+
+<p>显示结果如下：</p>
+<p><img src="/img/posts/2022/0727/002.webp" alt="代码块"></p>
+<h3 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h3><p>链接使用方法如下：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">[<span class="string">链接名称</span>](<span class="link">链接地址</span>)</span><br><span class="line"></span><br><span class="line">或者</span><br><span class="line"></span><br><span class="line">&lt;链接地址&gt;</span><br></pre></td></tr></table></figure>
+
+<p>例如：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">这是一个博客链接 [<span class="string">Jayhrn</span>](<span class="link">https://blog.jayhrn.cn/</span>)</span><br></pre></td></tr></table></figure>
+
+<p>显示结果如下：</p>
+<p>这是一个博客链接 <a class="post-href" href="https://blog.jayhrn.cn/"><i class="jayfont icon-external-link"></i>Jayhrn</a></p>
+<p>直接使用链接地址：</p>
+<p><a class="post-href" href="https://blog.jayhrn.cn/"><i class="jayfont icon-external-link"></i>https://blog.jayhrn.cn/</a></p>
+<h4 id="高级链接"><a href="#高级链接" class="headerlink" title="高级链接"></a>高级链接</h4><p>我们可以通过变量来设置一个链接，变量赋值在文档末尾进行：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">这个链接用 1 作为网址变量 [Google][1]</span><br><span class="line">这个链接用 Jayhrn 作为网址变量 [Jayhrn][Jayhrn]</span><br><span class="line">然后在文档的结尾为变量赋值（网址）</span><br><span class="line"></span><br><span class="line">  [1]: http://www.google.com/</span><br><span class="line">  [Jayhrn]: https://blog.jayhrn.cn/</span><br></pre></td></tr></table></figure>
+
+<p>显示结果如下：</p>
+<p>这个链接用 1 作为网址变量 <a class="post-href" href="http://www.google.com/"><i class="jayfont icon-external-link"></i>Google</a></p>
+<p>这个链接用 Jayhrn 作为网址变量 <a class="post-href" href="https://blog.jayhrn.cn/"><i class="jayfont icon-external-link"></i>Jayhrn</a></p>
+<p>然后在文档的结尾为变量赋值（网址）</p>
+<h3 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h3><p>Markdown 图片语法格式如下：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">![<span class="string">alt 属性文本</span>](<span class="link">图片地址</span>)</span><br><span class="line"></span><br><span class="line">![<span class="string">alt 属性文本</span>](<span class="link">图片地址 &quot;可选标题&quot;</span>)</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>开头一个感叹号 !</li>
+<li>接着一个方括号，里面放上图片的替代文字</li>
+<li>接着一个普通括号，里面放上图片的网址，最后还可以用引号包住并加上选择性的 ‘title’ 属性的文字。</li>
+</ul>
+<p>使用实例：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![图片](/img/posts/2022/0727/002.webp)</span><br><span class="line"></span><br><span class="line">![图片](/img/posts/2022/0727/002.webp &quot;Jayhrn&quot;)</span><br></pre></td></tr></table></figure>
+
+<p><img src="/img/posts/2022/0727/002.webp" alt="图片"></p>
+<p><img src="/img/posts/2022/0727/002.webp" alt="图片" title="Jayhrn"></p>
+<p>当然，你也可以像网址那样对图片网址使用变量：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">这个链接用 1 作为网址变量 [Jayhrn][1].</span><br><span class="line">然后在文档的结尾为变量赋值（网址）</span><br><span class="line"></span><br><span class="line">[1]: /img/posts/2022/0727/003.webp</span><br></pre></td></tr></table></figure>
+
+<p>显示结果如下：</p>
+<p>这个链接用 1 作为网址变量 <a class="post-href" href="http://www.google.com/"><i class="jayfont icon-external-link"></i>Study</a>.</p>
+<p>然后在文档的结尾为变量赋值（网址）</p>
+<p>Markdown 还没有办法指定图片的高度与宽度，如果你需要的话，你可以使用普通的 <img> 标签。</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;/img/posts/2022/0727/003.webp&quot;</span> <span class="attr">width</span>=<span class="string">&quot;25%&quot;</span> <span class="attr">alt</span>=<span class="string">&quot;图片&quot;</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
+
+<img src="/img/posts/2022/0727/003.webp" width="25%" alt="图片">
+
+<h3 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h3><p>Markdown 制作表格使用 <code>|</code> 来分隔不同的单元格，使用 <code>-</code> 来分隔表头和其他行。</p>
+<p>语法格式如下：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">| 表头   | 表头   |</span><br><span class="line">| ------ | ------ |</span><br><span class="line">| 单元格 | 单元格 |</span><br><span class="line">| 单元格 | 单元格 |</span><br></pre></td></tr></table></figure>
+
+<p>以上代码显示结果如下：</p>
+<table>
+<thead>
+<tr>
+<th>表头</th>
+<th>表头</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>单元格</td>
+<td>单元格</td>
+</tr>
+<tr>
+<td>单元格</td>
+<td>单元格</td>
+</tr>
+</tbody></table>
+<p>对齐方式</p>
+<p><strong>我们可以设置表格的对齐方式：</strong></p>
+<ul>
+<li><code>-:</code> 设置内容和标题栏居右对齐。</li>
+<li><code>:-</code> 设置内容和标题栏居左对齐。</li>
+<li><code>:-:</code>设置内容和标题栏居中对齐。</li>
+</ul>
+<p>实例如下：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">| 左对齐 | 右对齐 | 居中对齐 |</span><br><span class="line">| :----- | -----: | :------: |</span><br><span class="line">| 单元格 | 单元格 |  单元格  |</span><br><span class="line">| 单元格 | 单元格 |  单元格  |</span><br></pre></td></tr></table></figure>
+
+<p>以上代码显示结果如下：</p>
+<table>
+<thead>
+<tr>
+<th align="left">左对齐</th>
+<th align="right">右对齐</th>
+<th align="center">居中对齐</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">单元格</td>
+<td align="right">单元格</td>
+<td align="center">单元格</td>
+</tr>
+<tr>
+<td align="left">单元格</td>
+<td align="right">单元格</td>
+<td align="center">单元格</td>
+</tr>
+</tbody></table>
+<h2 id="Markdown-高级技巧"><a href="#Markdown-高级技巧" class="headerlink" title="Markdown 高级技巧"></a>Markdown 高级技巧</h2><h3 id="支持的-HTML-元素"><a href="#支持的-HTML-元素" class="headerlink" title="支持的 HTML 元素"></a>支持的 HTML 元素</h3><p>不在 Markdown 涵盖范围之内的标签，都可以直接在文档里面用 HTML 撰写。</p>
+<p>目前支持的 HTML 元素有：<code>&lt;kbd&gt; &lt;b&gt; &lt;i&gt; &lt;em&gt; &lt;sup&gt; &lt;sub&gt; &lt;br&gt;</code>等 ，如：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">使用 <span class="language-xml"><span class="tag">&lt;<span class="name">kbd</span>&gt;</span></span>Ctrl<span class="language-xml"><span class="tag">&lt;/<span class="name">kbd</span>&gt;</span></span>+<span class="language-xml"><span class="tag">&lt;<span class="name">kbd</span>&gt;</span></span>Alt<span class="language-xml"><span class="tag">&lt;/<span class="name">kbd</span>&gt;</span></span>+<span class="language-xml"><span class="tag">&lt;<span class="name">kbd</span>&gt;</span></span>Del<span class="language-xml"><span class="tag">&lt;/<span class="name">kbd</span>&gt;</span></span> 重启电脑</span><br></pre></td></tr></table></figure>
+
+<p>输出结果如下：</p>
+<p>使用<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd>重启电脑</p>
+<h3 id="转义"><a href="#转义" class="headerlink" title="转义"></a>转义</h3><p>Markdown 使用了很多特殊符号来表示特定的意义，如果需要显示特定的符号则需要使用转义字符，Markdown 使用反斜杠转义特殊字符：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="strong">**文本加粗**</span></span><br><span class="line">\<span class="emphasis">*\*</span> 正常显示星号 \<span class="emphasis">*\*</span></span><br></pre></td></tr></table></figure>
+
+<p>输出结果为：</p>
+<p><strong>文本加粗</strong></p>
+<p>** 正常显示星号 **</p>
+<p>Markdown 支持以下这些符号前面加上反斜杠来帮助插入普通的符号：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">\ 反斜线</span><br><span class="line">` 反引号</span><br><span class="line"></span><br><span class="line"><span class="bullet">-</span> 星号</span><br><span class="line">  \_ 下划线</span><br><span class="line">  &#123;&#125; 花括号</span><br><span class="line">  [] 方括号</span><br><span class="line">  () 小括号</span><br><span class="line"></span><br><span class="line"><span class="section"># 井字号</span></span><br><span class="line"></span><br><span class="line"><span class="bullet">-</span> 加号</span><br><span class="line"></span><br><span class="line"><span class="bullet">*</span> 减号</span><br><span class="line">  . 英文句点</span><br><span class="line">  ! 感叹号</span><br></pre></td></tr></table></figure>
+
+<h4 id="公式"><a href="#公式" class="headerlink" title="公式"></a>公式</h4><p><strong>Markdown Preview Enhanced</strong> 使用 <a class="post-href" href="https://github.com/Khan/KaTeX"><i class="jayfont icon-external-link"></i>KaTeX</a> 或者 <a class="post-href" href="https://github.com/mathjax/MathJax"><i class="jayfont icon-external-link"></i>MathJax</a> 来渲染数学表达式。</p>
+<p>KaTeX 拥有比 MathJax 更快的性能，但是它却少了很多 MathJax 拥有的特性。你可以查看 KaTeX supported functions&#x2F;symbols 来了解 KaTeX 支持那些符号和函数。</p>
+<p>默认下的分隔符：</p>
+<ul>
+<li><code>$...$</code> 或者 <code>\(...\)</code> 中的数学表达式将会在行内显示。</li>
+<li><code>$$...$$</code> 或者 <code>\[...\]</code> 或者 &#96;&#96;&#96;&#96;math&#96; 中的数学表达式将会在块内显示。</li>
+</ul>
+<p><img src="https://www.runoob.com/wp-content/uploads/2019/03/0e408954-fda8-11e5-9eb4-562d7c0ca431.gif" alt="数学表达式"></p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">$$</span><br><span class="line">\begin&#123;Bmatrix&#125;</span><br><span class="line">   a &amp; b \\</span><br><span class="line">   c &amp; d</span><br><span class="line">\end&#123;Bmatrix&#125;</span><br><span class="line">$$</span><br><span class="line"></span><br><span class="line">$$</span><br><span class="line">\begin&#123;CD&#125;</span><br><span class="line">   A @&gt;a&gt;&gt; B \\</span><br><span class="line">@VbVV @AAcA \\</span><br><span class="line">   C @= D</span><br><span class="line">\end&#123;CD&#125;</span><br><span class="line">$$</span><br></pre></td></tr></table></figure>
+
+<p>输出结果为：</p>
+<p><img src="/img/posts/2022/0727/004.webp" alt="markdown公式"></p>
+]]></content>
+      <categories>
+        <category>经验分享</category>
+      </categories>
+      <tags>
+        <tag>Markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>npm如何发包：npm发包的基本教程</title>
+    <url>/posts/4e4fb435e91a.html</url>
+    <content><![CDATA[<p>最近在研究自己的博客的时候，发现可以自己发包到<a class="post-href" href="https://www.npmjs.com/"><i class="jayfont icon-external-link"></i>npm</a>，这样子就可以使用自己的资源啦，不过有时候不稳定，不过反正是白嫖的，要求就不要那么高啦。</p>
+<h2 id="注册"><a href="#注册" class="headerlink" title="注册"></a>注册</h2><p>注册这种东西，说实话只要玩过电脑，注册过一些网站应该都会，这里就不做介绍了吧（其实就是我比较懒！）。</p>
+<p><strong>注意：jsDelivr+npm 有 100MB 包大小限制</strong></p>
+<h2 id="发包流程"><a href="#发包流程" class="headerlink" title="发包流程"></a>发包流程</h2><p>当你注册好了之后就是直接使用啦，还是比较简单的。</p>
+<ol>
+<li><p>新建一个文件夹，里面放你需要上传的所有资源文件，新建的文件夹名字随意，这个与后续的发包名字没有任何的关系，只要自己了解就可以了。</p>
+</li>
+<li><p>在新建的文件夹里面使用<code>git bash</code>打开。</p>
+</li>
+<li><p>初始化一个<code>npm</code>仓库</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">npm</span> <span class="string">init</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>使用如下命令发布。</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">npm</span> <span class="string">publish</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>接下来就会让你配置各种信息了，基本信息如下。</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">#npm包名称</span><br><span class="line">package name:sarakale-assets</span><br><span class="line">#版本号</span><br><span class="line">version:1.0.0</span><br><span class="line">#描述，可以不写</span><br><span class="line">description:我的个人仓库</span><br><span class="line">#入口点，默认即可</span><br><span class="line">entry point:</span><br><span class="line">#测试命令，默认即可</span><br><span class="line">test command:</span><br><span class="line">#关联的github仓库，也可以不写</span><br><span class="line">git repository:</span><br><span class="line">#关键词，也可以不写</span><br><span class="line">keywords:</span><br><span class="line">#作者名</span><br><span class="line">author:sarakale</span><br><span class="line">#许可证，默认即可</span><br><span class="line">license:</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>最后就是静待发布成功了，在发布成功后，会通过你一开始注册绑定的邮箱通知你成功了。</p>
+<p>如果发现发布失败了，就需要再次发布了，一般太大了可能就会失败。</p>
+</li>
+<li><p><code>npm</code> 更新每次要输入 <code>npm publish</code> 很麻烦的话，可以在 <code>package.json</code> 修改 <code>version</code> 版本号，然后输入以下命令即可。</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">npm</span> <span class="string">version</span> <span class="string">patch</span></span><br></pre></td></tr></table></figure></li>
+</ol>
+<h2 id="资源使用"><a href="#资源使用" class="headerlink" title="资源使用"></a>资源使用</h2><p>基本使用如下</p>
+<p><code>https://npm.elemecdn.com/npm包名@版本号/source/css/waterfall.min.js</code></p>
+<p><code>npm</code>包名就是你前面自己输入的包名，如果忘记了可以去自己的仓库查看或者查看本地的<code>package.json</code>文件里面的<code>name</code>后面的名字。</p>
+<p>包名版本号后面的路径就是你<strong>本地新建的文件</strong>的里面每个资源对应的路径。</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">https://npm.elemecdn.com/npm包名@版本号/source/css/waterfall.min.js</span><br><span class="line">例如：</span><br><span class="line">https://npm.elemecdn.com/jayhrn-hexosource@1.2.0/source/js/waterfall.min.js</span><br></pre></td></tr></table></figure>
+
+<p><code>npm</code> 的节点有很多，可以任意挑一个使用。目前的节点如下：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">#百度节点</span><br><span class="line">https://code.bdstatic.com/npm/:package@:version/filelocation</span><br><span class="line">#饿了么节点，回源是Unpkg</span><br><span class="line">https://npm.elemecdn.com:package@:version/filelocation</span><br><span class="line">#饿了么节点，回源是jsdelivr</span><br><span class="line">https://shadow.elemecdn.com/npm/:package@:version/filelocation</span><br></pre></td></tr></table></figure>
+
+<p>也可以利用 <code>unpkg</code> 自建。使用如下：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">https://unpkg.com/:package@:version/filelocation</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>经验分享</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>必看</tag>
+        <tag>npm</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>一场落雪 、白了眉眼 、醉了人间</title>
+    <url>/posts/47c97b7aa9bd.html</url>
+    <content><![CDATA[<blockquote>
+<p>我们无法判断一个瞬间的价值，直到它成为回忆</p>
+</blockquote>
+<ul>
+<li><p>这世上有两个我 一个沉默不语成熟稳重 一个叽叽喳喳幼稚至极 我是说在外人面前我会隐藏情绪 保持成熟 但在你这里 我只想和你分享我的日常 只和你碎碎念. </p>
+</li>
+<li><p>事在人为，不是无缘，是不愿，有缘躲不过，无缘碰不到，缘起则聚，缘尽则散，随缘而至 </p>
+</li>
+<li><p>一点相思一点泪，点点相思红尘泪。一缕思念一颗豆，颗颗红豆束卿念。 </p>
+</li>
+<li><p>追月赶风莫停留，平芜尽处是春山 </p>
+</li>
+<li><p>因为她生来就是公主，每个女孩子都是公主，在属于自己的王子那里永远是最美丽的公主 </p>
+</li>
+<li><p>脚步丈量不到的地方，文字可以</p>
+</li>
+<li><p>一场落雪 、白了眉眼 、醉了人间。</p>
+</li>
+<li><p>明明自己过的不尽如意，却又见不得人间疾苦</p>
+</li>
+<li><p>别人对我万般好 我都未曾动心 唯独你只要咧嘴一笑 我心里便开满了花 或许你只要站在那里 都已经赢了别人</p>
+</li>
+<li><p>风吹哪页读哪页，哪页难懂撕哪页</p>
+</li>
+<li><p>葡萄藤上开不出百合花 ，找不出答案的时候，就先找找自己</p>
+</li>
+<li><p>贤妻扶我青云志，我还贤妻万两金</p>
+</li>
+<li><p>我不想成为一个悲观的人 但我又是一个容易共情的人 我看到电影里的好人 永远得不到好报 我会悲愤 我见到路上拾荒的老人 又或是流浪乞讨的小狗 我会不由得想哭 感慨且同情<br>我的心情会因为一些文字 一些言语 一些举动而大起大落 我永远无法忽视别人的感受 共情是痛苦的 世上所能看到的痛苦 我都控制不住的放在心里咀嚼 那种无能为力的感觉 每次都勒得我要窒息<br>很奇怪 生活中我一直认为自己是个冷漠不讨喜的人 可却总为一些不相干的事物感到难 我不理解 为何我像颗细沙 渺小到坠入冰河都激不起涟漪 心中却总渴望包罗世间万物</p>
+</li>
+<li><p>他表面上嘻嘻哈哈没心没肺的样儿 但实际上却经常emo<br>他时而自信 时而自卑 他非常奇怪 很喜欢<br>社交却又表现出很社恐<br>他表面上注重自己的形象 背地里却是个小邋遢<br>他心事全放在心里 嘴上永远说着反话 很多事情明明自己很注意却要装做漠不关心<br>他会经常给自己定上一个小目标 但是每次都会做不到<br>他就像情感大师一样开导别人指指点点别人的感情 但每次到自己永远是闭口不谈<br>他很喜欢听歌打球 可他的歌单球技就跟他的人生一样乱糟糟<br>他也经常给自己灌输心灵鸡汤<br>他或许有很多很多的烦恼 靠抽烟来麻痹自己<br>他就像是一个叼毛乐观却又很悲观 虚度着每一天<br>于是他写下这些话 他或许也想找到能救自己的办法</p>
+</li>
+<li><p>看似不起波澜的日复一日，一定会在某一天让你的坚持有意义，没有任何人的人生是一帆风顺的，起伏不定磕磕绊绊的坎坷才是最常的状态，再贵的东西日复一日终有一日会追求到，在微不足道的努力和力量日复一日的追赶和坚持也会变的无比强大，人生就如同文章一般分开头，过渡以及结尾，每个人都有每个人的内容与色彩，梦想是每个人成长的枷锁，终有实现的一鸣惊人的时候，沿途经过的风景都是让自己羽翼渐丰的修行，所付出的心血与悲欢离合都是向着那个更完美的自己砥砺前行，人生会有低谷，但是也是沉淀自己的时候，所以“轻舟已过万重山”努力去追求热爱，努力的好好的生活下去，想要的，终有一天会成为那个了不起的自己～“勿忘初心，必有回响”</p>
+</li>
+<li><p>你的名字，是我见过最短的情诗</p>
+</li>
+<li><p>不是读书没用，是你读的那点破书没用<br>多花时间塑造自己，少花时间研究别人</p>
+</li>
+<li><p>有心者有所累，无心者无所谓，情出自愿，事过无悔，不负遇见，不谈亏欠</p>
+</li>
+<li><p>害怕尴尬和丢脸的人，本质上就是自我意识太强，太过于在意别人对自己的评价，于是我们把自己固定在舒适圈内，不敢去尝试自己喜欢的新鲜事物，因为害怕尴尬，我们不敢跟喜欢的人表白，我们错过了很多能让自己有所发展的机会。</p>
+</li>
+<li><p>我希望我们都能记住一句话，大胆生活，你没那么多观众，过好自己的生活就好，即使你犯错了，也不要一味的放大错误，做到淡化自我意识，不在乎别人对自己的评价，永远不要觉得尴尬和丢脸，希望我们都能活出真正的自我。</p>
+</li>
+<li><p>我亲爱的好朋友，花自向阳开，人终往前走。你不要站在雾里，不要执着于没有意义的人和事，不要像风也不要像云，要做喜欢的你自己。</p>
+</li>
+<li><p>哪有什么避风港，风来了我就慢慢走，雨来了，我就靠边走，打雷了，我就捂着耳朵走，我一个人走了好久好久…….</p>
+</li>
+<li><p>我想把孩子教育好，也想把父母照顾好，还想把婚姻经营好，我更想挣很多很多钱，我想把什么都照顾好，到头来，我什么都没照顾到。上有老，不能常伴左右；下有小，无力伴其成长；中有伴；无心好言三句，外有友，却不能一醉方休。</p>
+</li>
+<li><p>人啊，到了一定的岁数，自己就是自己的屋檐，再也无法找到地方躲雨。</p>
+</li>
+<li><p>手持烟火以谋生 心怀诗意以谋爱</p>
+</li>
+<li><p>你是声色张扬下，我欲盖弥彰的温柔理想</p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>生活日常</category>
+      </categories>
+      <tags>
+        <tag>语录</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>一言语录</title>
+    <url>/posts/4be4e2f1e9c7.html</url>
+    <content><![CDATA[<ul>
+<li><p>有趣的灵魂永远不会被世俗的潮水淹没，它只会在浪潮汹涌时更加熠熠生辉。——来自b站</p>
+</li>
+<li><p>人生的意义，在于承担人生无意义的勇气。如果你一直在找人生的意义，你永远不会生活。——加缪</p>
+</li>
+<li><p>音乐就像宗教，给了我信仰，却改变不了现实。——B站评论</p>
+</li>
+<li><p>故事就像标本一样，眼前是美丽的假象，却已经死亡</p>
+</li>
+<li><p>我被困在这方寸之地，尽管可以眺望远方，但好像，也仅限于此。</p>
+</li>
+</ul>
+<p>喝100杯奶茶<br>来99个拥抱<br>看98场日落<br>要97次接吻<br>拍96张照片<br>买95朵玫瑰<br>去94家餐馆<br>看93次大海<br>走92条小巷<br>打91次雨伞<br>要90场牵手<br>种89个草莓<br>盖88次被子<br>递87杯温水<br>热86次剩饭<br>看85次电影<br>做84顿午饭<br>切83个水果<br>吃82次甜品<br>喝81次暖茶<br>要80次拥抱<br>吃79遍烧烤<br>烤78次肉串<br>涮77次火锅<br>来76次海鲜<br>吃75种小吃<br>参74场晚宴<br>喝73杯喜酒<br>吃72次西餐<br>尝71颗糖果<br>给你70枚吻<br>荡69遍秋千<br>看68次日出<br>躺67次草地<br>看66次星空<br>闻65次头发<br>抱64次肩膀<br>吻63次脸颊<br>亲62次锁骨<br>咬61次耳朵<br>有60次相拥<br>看59场鬼片<br>去58个城市<br>吃57桶米花<br>逛56个商厦<br>打55次的士<br>坐54次公交<br>等53次地铁<br>开52次自驾<br>站51遍路灯<br>睡50次怀里<br>去49个鬼屋<br>看48场表演<br>逗47只动物<br>坐46次飞车<br>玩45次激流<br>滑44次滑梯<br>坐43次飞椅<br>转42次陀螺<br>吊41次吊索<br>吃40次小吃<br>捂39次肚子<br>揉38次肩膀<br>捶37次后背<br>捏36次小腿<br>暖35次脚丫<br>摸34次脑袋<br>撮33次肋骨<br>挠32次手心<br>逗31场大笑<br>要30次拥吻<br>放29个气球<br>钓28只大鱼<br>玩27次飞镖<br>放26次风筝<br>冲25次瀑布<br>滑24艘小船<br>蹦23场蹦极<br>跳22次跳伞<br>漂21次河流<br>生20次闷气<br>骑19次单车<br>看18场大雪<br>玩17遍飞艇<br>去16次森林<br>探15个峡谷<br>踏14个小溪<br>爬13座高山<br>看12个沙漠<br>坐11次轮船<br>写10封情书<br>唱9首情歌<br>堆8个雪人<br>摘7朵野花<br>看6场流星<br>许5个愿望<br>醉4次夜酒<br>种3棵玫瑰<br>吵2次架<br>爱1辈子</p>
+]]></content>
+      <categories>
+        <category>生活日常</category>
+      </categories>
+      <tags>
+        <tag>语录</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客基本组件样式</title>
+    <url>/posts/1ed28e411d5e.html</url>
+    <content><![CDATA[<h2 id="按钮"><a href="#按钮" class="headerlink" title="按钮"></a>按钮</h2><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;% btn [url],[text],[icon],[color] [style] [layout] [position] [size] %&#125;</span><br></pre></td></tr></table></figure>
+<p>This is my website, click the button <a class="btn-beautify block center blue larger" href="https://blog.jayhrn.cn" title="JayHrn"><i class="jayfont icon-reward"></i><span>JayHrn</span></a></p>
+<h2 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h2><div class="note "><div class="note-title">无图标提示</div><p>无图标提示块标签</p>
+</div>
+
+<div class="note custom-icon"><div class="note-title"><i class="note-icon icon-reward"></i>自定义图标提示</div><p>自定义图标提示块标签</p>
+</div>
+
+<div class="note default"><div class="note-title">默认提示</div><p>默认提示块标签</p>
+</div>
+
+<div class="note primary"><div class="note-title">主要提示</div><p>主要提示块标签</p>
+</div>
+
+<div class="note success"><div class="note-title">成功提示</div><p>成功提示块标签</p>
+</div>
+
+<div class="note info"><div class="note-title">信息提示</div><p>信息提示块标签</p>
+</div>
+
+<div class="note warning"><div class="note-title">警告提示</div><p>警告提示块标签</p>
+</div>
+
+<div class="note danger"><div class="note-title">危险提示</div><p>危险提示块标签</p>
+</div>
+
+<h2 id="文字隐藏"><a href="#文字隐藏" class="headerlink" title="文字隐藏"></a>文字隐藏</h2><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">门里站着一个人? &#123;% hideInline 闪 %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% hideBlock 查看答案 %&#125;</span><br><span class="line">怎么可能有答案</span><br><span class="line">&#123;% endhideBlock %&#125;</span><br></pre></td></tr></table></figure>
+<p>门里站着一个人? <span class="hide-inline"><button type="button" class="hide-button" style="">Click</button><span class="hide-content">闪</span></span></p>
+<div class="hide-block"><button type="button" class="hide-button" style="">查看答案</button><div class="hide-content"><p>怎么可能有答案</p>
+</div></div>
+<h2 id="toggle"><a href="#toggle" class="headerlink" title="toggle"></a>toggle</h2><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;% hideToggle 标题 %&#125;</span><br><span class="line">这个是里面的内容</span><br><span class="line">&#123;% endhideToggle %&#125;</span><br></pre></td></tr></table></figure>
+<details class="toggle" ><summary class="toggle-button" style="">标题</summary><div class="toggle-content"><p>这个是里面的内容</p>
+</div></details>
+
+<h2 id="tab分栏"><a href="#tab分栏" class="headerlink" title="tab分栏"></a>tab分栏</h2><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;% tabs 标签页 %&#125;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab 第一标签页 --&gt;</span><br><span class="line"></span><br><span class="line"><span class="strong">**这是第一个标签页**</span></span><br><span class="line"></span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab 第二标签页 --&gt;</span><br><span class="line"></span><br><span class="line"><span class="strong">**这是第二个标签页**</span></span><br><span class="line"></span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab 第三标签页 --&gt;</span><br><span class="line"></span><br><span class="line"><span class="strong">**这是第三个标签页**</span></span><br><span class="line"></span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&#123;% endtabs %&#125;</span><br></pre></td></tr></table></figure>
+
+<div class="tabs"><div class="nav-tabs"><button type="button" class="tab active">第一标签页</button><button type="button" class="tab">第二标签页</button><button type="button" class="tab">第三标签页</button></div><div class="tab-contents"><div class="tab-item-content active"><p><strong>这是第一个标签页</strong></p></div><div class="tab-item-content"><p><strong>这是第二个标签页</strong></p></div><div class="tab-item-content"><p><strong>这是第三个标签页</strong></p></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="jayfont icon-arrow-up"></i></button></div></div>
+
+<h2 id="行内图片"><a href="#行内图片" class="headerlink" title="行内图片"></a>行内图片</h2><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;% inlineImg [src] [height] %&#125;</span><br></pre></td></tr></table></figure>
+
+<p>我觉得很漂亮 <img class="inline-img" src="https://i.loli.net/2021/03/19/5M4jUB3ynq7ePgw.png" style="height:150px" /></p>
+<h2 id="文字高亮"><a href="#文字高亮" class="headerlink" title="文字高亮"></a>文字高亮</h2><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;% label text color %&#125;</span><br></pre></td></tr></table></figure>
+<p>臣亮言：<mark class="hl-label default">先帝</mark>创业未半，而<mark class="hl-label blue">中道崩殂</mark>。今天下三分，<mark class="hl-label pink">益州疲敝</mark>，此诚<mark class="hl-label red">危急存亡之秋</mark>也！然侍衞之臣，不懈于内；<mark class="hl-label purple">忠志之士</mark>，忘身于外者，盖追先帝之殊遇，欲报之于陛下也。诚宜开张圣听，以光先帝遗德，恢弘志士之气；不宜妄自菲薄，引喻失义，以塞忠谏之路也。<br>宫中、府中，俱为一体；陟罚臧否，不宜异同。若有<mark class="hl-label orange">作奸</mark>、<mark class="hl-label green">犯科</mark>，及为忠善者，宜付有司，论其刑赏，以昭陛下平明之治；不宜偏私，使内外异法也。</p>
+<h2 id="时间轴"><a href="#时间轴" class="headerlink" title="时间轴"></a>时间轴</h2><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;% timeline 2022,pink %&#125;</span><br><span class="line"></span><br><span class="line">&lt;!-- timeline 01-02 --&gt;</span><br><span class="line"></span><br><span class="line">这是测试页面</span><br><span class="line"></span><br><span class="line">&lt;!-- endtimeline --&gt;</span><br><span class="line"></span><br><span class="line">&#123;% endtimeline %&#125;</span><br></pre></td></tr></table></figure>
+<div class="timeline pink"><div class='timeline-item headline'>
+        <div class='timeline-item-title'>
+          <div class='item-circle'><p>2022</p>
+</div>
+        </div>
+      </div><div class='timeline-item'>
+        <div class='timeline-item-title'>
+          <div class='item-circle'><p>01-02</p>
+</div>
+        </div>
+        <div class='timeline-item-content'><p>这是测试页面</p>
+</div>
+      </div></div>
+
+<h2 id="友情链接卡片组"><a href="#友情链接卡片组" class="headerlink" title="友情链接卡片组"></a>友情链接卡片组</h2><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;% flink %&#125;</span><br><span class="line"><span class="bullet">-</span> class<span class="emphasis">_name: 友情链接</span></span><br><span class="line"><span class="emphasis">  class_</span>desc: 由添加时间综合排序</span><br><span class="line">  type: online</span><br><span class="line">  link<span class="emphasis">_list:</span></span><br><span class="line"><span class="emphasis">    - name: JayHrn</span></span><br><span class="line"><span class="emphasis">      link: https://blog.jayhrn.cn</span></span><br><span class="line"><span class="emphasis">      avatar: /img/avatar.png</span></span><br><span class="line"><span class="emphasis">      descr: 追风赶月, 心向阳开</span></span><br><span class="line"><span class="emphasis">    - name: Hexo</span></span><br><span class="line"><span class="emphasis">      link: https://hexo.io/zh-tw/</span></span><br><span class="line"><span class="emphasis">      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg</span></span><br><span class="line"><span class="emphasis">      descr: 快速、简单且强大的网志框架</span></span><br><span class="line"><span class="emphasis"></span></span><br><span class="line"><span class="emphasis">- class_</span>name: 网站</span><br><span class="line">  class<span class="emphasis">_desc: 值得推荐的网站</span></span><br><span class="line"><span class="emphasis">  type: offline</span></span><br><span class="line"><span class="emphasis">  link_</span>list: </span><br><span class="line"><span class="bullet">    -</span> name: Youtube</span><br><span class="line"><span class="code">      link: https://www.youtube.com/</span></span><br><span class="line"><span class="code">      avatar: https://i.loli.net/2020/05/14/9ZkGg8v3azHJfM1.png</span></span><br><span class="line"><span class="code">      descr: 视频网站 </span></span><br><span class="line"><span class="code">    - name: Weibo</span></span><br><span class="line"><span class="code">      link: https://www.weibo.com/</span></span><br><span class="line"><span class="code">      avatar: https://i.loli.net/2020/05/14/TLJBum386vcnI1P.png</span></span><br><span class="line"><span class="code">      descr: 中国最大社交分享平台 </span></span><br><span class="line"><span class="code">    - name: Twitter</span></span><br><span class="line"><span class="code">      link: https://twitter.com/</span></span><br><span class="line"><span class="code">      avatar: https://i.loli.net/2020/05/14/5VyHPQqR6LWF39a.png</span></span><br><span class="line"><span class="code">      descr: 社交分享平台</span></span><br><span class="line"><span class="code">&#123;% endflink %&#125;</span></span><br></pre></td></tr></table></figure>
+<div class="flink"><div class="flink-group"><div class="flink-title">友情链接</div><div class="flink-desc">由添加时间综合排序</div> <div class="flink-list">
+      <div class="flink-list-item">
+        <a class="flink-list-link online" href="https://blog.jayhrn.cn" title="JayHrn" target="_blank">
+          <div class="flink-item-icon">
+            <img class="flink-avatar no-lightbox" src="/img/avatar.png" onerror='this.onerror=null;this.src="/img/common_404.gif"' alt="JayHrn" />
+          </div>
+          <div class="flink-item-info">
+            <div class="flink-item-info-name">JayHrn</div>
+            <div class="flink-item-info-desc" title="追风赶月, 心向阳开">追风赶月, 心向阳开</div>
+          </div>
+        </a>
+      </div>
+      <div class="flink-list-item">
+        <a class="flink-list-link online" href="https://hexo.io/zh-tw/" title="Hexo" target="_blank">
+          <div class="flink-item-icon">
+            <img class="flink-avatar no-lightbox" src="https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg" onerror='this.onerror=null;this.src="/img/common_404.gif"' alt="Hexo" />
+          </div>
+          <div class="flink-item-info">
+            <div class="flink-item-info-name">Hexo</div>
+            <div class="flink-item-info-desc" title="快速、简单且强大的网志框架">快速、简单且强大的网志框架</div>
+          </div>
+        </a>
+      </div></div></div><div class="flink-group"><div class="flink-title">网站</div><div class="flink-desc">值得推荐的网站</div> <div class="flink-list">
+      <div class="flink-list-item">
+        <a class="flink-list-link offline" href="https://www.youtube.com/" title="Youtube" target="_blank">
+          <div class="flink-item-icon">
+            <img class="flink-avatar no-lightbox" src="/img/friend-lose.png" onerror='this.onerror=null;this.src="/img/common_404.gif"' alt="Youtube" />
+          </div>
+          <div class="flink-item-info">
+            <div class="flink-item-info-name">Youtube</div>
+            <div class="flink-item-info-desc" title="视频网站">视频网站</div>
+          </div>
+        </a>
+      </div>
+      <div class="flink-list-item">
+        <a class="flink-list-link offline" href="https://www.weibo.com/" title="Weibo" target="_blank">
+          <div class="flink-item-icon">
+            <img class="flink-avatar no-lightbox" src="/img/friend-lose.png" onerror='this.onerror=null;this.src="/img/common_404.gif"' alt="Weibo" />
+          </div>
+          <div class="flink-item-info">
+            <div class="flink-item-info-name">Weibo</div>
+            <div class="flink-item-info-desc" title="中国最大社交分享平台">中国最大社交分享平台</div>
+          </div>
+        </a>
+      </div>
+      <div class="flink-list-item">
+        <a class="flink-list-link offline" href="https://twitter.com/" title="Twitter" target="_blank">
+          <div class="flink-item-icon">
+            <img class="flink-avatar no-lightbox" src="/img/friend-lose.png" onerror='this.onerror=null;this.src="/img/common_404.gif"' alt="Twitter" />
+          </div>
+          <div class="flink-item-info">
+            <div class="flink-item-info-name">Twitter</div>
+            <div class="flink-item-info-desc" title="社交分享平台">社交分享平台</div>
+          </div>
+        </a>
+      </div></div></div></div>
+
+<h2 id="外链"><a href="#外链" class="headerlink" title="外链"></a>外链</h2><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;% link hexo-generator-json-website, 这是一个用于Hexo的插件，主要用于生成网站的Json数据，包括网站信息，文章信息，网页信息，以及一些文章类型、标签等，同时还可以生成自定义的一些文件内容, https://github.com/JayHrn/hexo-generator-json-website %&#125;</span><br></pre></td></tr></table></figure>
+
+<div class="card-tag-link"><a class="tag-link" target="_blank" href=" https://github.com/JayHrn/hexo-generator-json-website" title="hexo-generator-json-website">
+        <div class="tag-link-content">
+            <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/ https://github.com/JayHrn/hexo-generator-json-website.png);">
+                <i class="jayfont icon-postlink"></i>
+            </div>
+            <div class="tag-link-right">
+                <div class="tag-link-title">hexo-generator-json-website</div>
+                <div class="tag-link-description"> 这是一个用于Hexo的插件，主要用于生成网站的Json数据，包括网站信息，文章信息，网页信息，以及一些文章类型、标签等，同时还可以生成自定义的一些文件内容</div>
+            </div>
+            <i class="jayfont icon-arrow-right"></i>
+        </div>
+        <div class="tag-link-tips">引用站外地址</div>
+    </a></div>]]></content>
+      <categories>
+        <category>经验分享</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>如何加速git clone下载速度，为你的git添加代理加速访问</title>
+    <url>/posts/3f28bebfea81.html</url>
+    <content><![CDATA[<p>我们在使用git工具进行<code>clone</code>是发现下载速度特别慢，就算我们开启了魔法都会很慢，其实这个是因为我们开启的代理只是对浏览器生效了（你会发现在浏览器里面直接访问GitHub下载就会很快速）。这个时候就需要对git也配置代理就可以加快访问了。</p>
+<h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><ol>
+<li><p><strong>代理</strong>：首先你已经具备了，魔法就得自己去寻找了，这里就不做提供。</p>
+</li>
+<li><p><strong>查看端口</strong>：如果你还是使用着<code>clash</code>，可以直接查看，例如下面，端口就是7890，后面需要用到。</p>
+<p><img src="/img/posts/2023/1217/2023121701.webp" alt="端口查看"></p>
+</li>
+</ol>
+<h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>设置<code>HTTP</code>代理</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global http.proxy http://127.0.0.1:7890</span><br></pre></td></tr></table></figure>
+
+<p>上面<code>127.0.0.1</code>表示的是本地回环地址，而我们需要改动的就是这个地址冒号后面的端口号，将端口号改成自己的即可。设置成功了你就可以发现在<code>.gitconfig</code>文件中添加了如下的配置，这个文件在用户文件夹里面就可以看到。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">[http]</span><br><span class="line">	proxy = http://127.0.0.1:7890</span><br></pre></td></tr></table></figure>
+
+<h2 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h2><p>最后再次进行clone的时候就会发现快很多了。</p>
+<p><img src="/img/posts/2023/1217/2023121702.webp" alt="端口查看"></p>
+<h2 id="npm设置代理"><a href="#npm设置代理" class="headerlink" title="npm设置代理"></a>npm设置代理</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm config <span class="built_in">set</span> proxy http://127.0.0.1:7890</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>经验分享</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>必看</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>揽人间烟火，静待一树花开</title>
+    <url>/posts/b885ca17078b.html</url>
+    <content><![CDATA[<blockquote>
+<p>远赴人间惊鸿宴，一睹人间盛世言</p>
+</blockquote>
+<blockquote>
+<p>左手牵你，右手拿笔，不负青春不负你</p>
+</blockquote>
+<p>以下内容均来自网络，部分语句可能个人有感而发。</p>
+<details class="toggle" ><summary class="toggle-button" style="">情</summary><div class="toggle-content"><ul>
+<li>山茶花读不懂白玫瑰，北山的风吹不到南山尾，就像我始终也无法理解你的山河万里，抬头是风情万种的人间，闭眼是往昔一年又一年，我们都在变，不是吗</li>
+<li>无所求，必满载而归</li>
+<li>花自向阳开，人终往前走</li>
+<li>最痛苦的就是明明自己是个感性的人，但一直强迫自己理性看待所有事，那感觉就像是在雨中撑着伞，但其实雨淋满身</li>
+<li>伸手，只需要一瞬间<br>而牵手，却要很多年<br>无论你遇见谁<br>他都是你生命中刚出现的人<br>绝非偶然<br>若无姻缘<br>何以相遇<br>若无相欠<br>怎会相见</li>
+<li>我讨厌断断续续的聊天和漫无目的的等待</li>
+<li>幸好思念无声，可惜思念无声</li>
+<li>这又不是电影，谁会等你三五年<br>可惜这不是电影，我等你三五年，你又怎会晓得</li>
+<li>你不停翻评论，只是为了找到那个能替你说出故事的人</li>
+<li>共情能力强的人在当下过得都太痛苦了，主动麻木都变成了一种自我救赎……</li>
+<li>钱没了可以再挣，工作没了可以再找，朋友没了可以再交，爱情没了可以再找，你生来就一无所有，何惧从头再来。水到绝境是瀑布，人到绝境是重生，半山腰总是很急的，你得努力去山顶看看，人生这道题，怎么选都有遗憾真正的强者，是夜深人静的时候，把心掏出来自己缝缝补补，睡一觉起来又是信心百倍，活着就该逢山开路，遇水架桥，睡前原谅一切，醒来便是重生</li>
+<li>最心酸的不是文案，而是看评论的人，你不停的翻着评论，只是为了找到那个能替你说出故事的人！</li>
+<li>时间会筛选身边的人 值得的人自然值得</li>
+<li>不是你看错人了，只是我不该出现在你的生活里</li>
+<li>再多的思念也会被一次次已读不回消磨殆尽</li>
+<li>一句话就像沾满墨汁的毛笔放进清水缸中一样让我回忆四散而炸裂</li>
+<li>我以为破碎的情绪会被认真对待一片片捡起，却发现被踩了两脚，让它一碎再碎</li>
+<li>我喜欢你<br>并不是因为你长的好不好看<br>而是你在我最低沉的日子里给了我最救赎的感觉<br>也并不是我喜欢的样子你都有，而是你的样子我都喜欢你<br>伤心的 开心的 故作坚强的 可爱的 性感的<br>好想听一句你的安慰</li>
+<li>太主动了怕你烦，不主动怕失去，伸手怕犯错，不伸手怕错过，多一点怕打扰，少一点怕遗憾，终于知道什么叫做，想你在一起好难</li>
+<li>人和人刚认识的时候真好<br>虚伪又热情<br>新鲜又浪漫</li>
+<li>想看有形状的雪花，想要有结果的爱</li>
+<li>刚开始<br>对你只是一种好感<br>然后悄悄<br>变成了一种喜欢<br>后来慢慢变成了爱<br>最后爱你变成了一种习惯<br>少了你<br>就感觉少了全世界</li>
+<li>我可能给不了你心中最好的一切，但我会把最好的一切都给你，别问我心里到底有没有你。因为我只会尽我所能，爱你所有</li>
+<li>我听闻爱有千万种说法<br>也有无数表达<br>于是我把世间所有的情话<br>通通记下<br>可是我嘴笨心哑<br>现在你面前时，却说不出一句话</li>
+</ul>
+</div></details>
+
+<details class="toggle" ><summary class="toggle-button" style="">逢</summary><div class="toggle-content"><ul>
+<li>抱怨身处黑暗，不如提灯前行</li>
+<li>人间总有一两风，填我十万八千梦</li>
+<li>市井长巷，聚拢来是烟火，摊开来是人间</li>
+<li>时间酿酒，余味成花</li>
+<li>白马长枪飘如诗，鲜衣怒马少年时</li>
+<li>心至苍穹外，目尽星河远</li>
+<li>恰似人间惊鸿客，墨染星辰云水间</li>
+<li>我与春风皆过客，你携秋水揽星河</li>
+<li>人生漫长，晴雨交加，但若是心怀热爱，即使岁月荒芫，亦能奔山赴海，静待一树花开</li>
+<li>让花成花，让树成树</li>
+<li>放他三千裘马去，不寄俗生，唯贪我三枕黄粱梦</li>
+<li>萤萤之光，终汇成璀璨星河</li>
+<li>这光微而不弱，足以充塞天地，灿照人间</li>
+<li>在暗处执着生长，终有一日馥郁传香</li>
+<li>风起于青萍之末，浪成于微澜之间</li>
+<li>月缺不改光，剑折不改刚</li>
+<li>一星陨落，黯淡不了星空灿烂；一花调零，荒芜不了整个春天</li>
+<li>人生这条路很长，未来如星辰大海般璀璨，不必踌躇于过去的半亩方塘</li>
+<li>人生海海，山山而川，不过尔尔</li>
+<li>所有的为时已晚，其实是恰逢其时</li>
+<li>人闲车马慢，路遥星亦辞</li>
+<li>恰似人间惊鸿客，墨染星辰云水间</li>
+<li>日落跌入昭昭星野，人间忽晚，山河已秋</li>
+<li>日落沉溺于橘色的海，晚风沦陷于赤诚的爱</li>
+<li>暮光四溢，浓云欲坠，似你翩赶，而来落在我心上</li>
+</ul>
+</div></details>
+
+<details class="toggle" ><summary class="toggle-button" style="">世</summary><div class="toggle-content"><ul>
+<li>少年就是少年，他们看春风不喜，看夏蝉不烦，看冬雪不叹，看满身富贵懒察觉，看不公不允敢面对，只因他们是少年</li>
+<li>那时我们有梦，关于文学，关于爱情，关于穿越世界的旅行。如今我们深夜饮酒，杯子碰在一起，都是梦破碎的声音</li>
+<li>月光还是少年的光，九州一色还是李白的霜</li>
+<li>酒入豪肠，七分酿成了月光。余下的三分啸成剑气。绣口一吐就半个盛唐</li>
+<li>在世间，本就是各人下雪，各人有各人的隐晦与皎洁</li>
+<li>或许世人道你轻狂，可你本就年少啊</li>
+</ul>
+</div></details>
+
+<details class="toggle" ><summary class="toggle-button" style="">缘</summary><div class="toggle-content"><ul>
+<li>人海浮沉之世，相遇尽于缘字。春花，夏日，秋风，冬雪，四季更迭，茫茫无期，<br>醉酒浮华，听音入眠，<br>如此往复，<br>喧闹于世俗尘落，心静于野。</li>
+<li>再无相见之日，如亦分散人间炼狱。<br>深夜，孤寂，思念，炙热，形单影只，回忆梦里，<br>冬秋夏至，山川千里。<br>既此以后，<br>心上人已消逝，满目疮痍。</li>
+<li>上船不思岸上人，下船不提船上事，旧人无需只近况，新人不必问过往。</li>
+<li>春有约 花不误 岁岁年年不相负<br>夏有风 花正浓 朝朝暮暮等重逢<br>秋有雨 花含露 零零落落终不误<br>冬飞雪 花正歇 聚聚散散寻归路</li>
+</ul>
+<blockquote>
+<p>惜</p>
+</blockquote>
+<ul>
+<li>慢慢是个好词，慢慢遇见，慢慢成长，慢慢喜欢，所以我们慢慢来，慢慢看世界，我会尽我所能去爱你，珍惜你！</li>
+<li>不要后悔对任何人好，哪怕被辜负，哪怕撞南墙。<br>因为你对他好 不代表他有多好，只是因为你很好。<br>买了就不要再去比价格，吃了就不要后悔，爱了就不要猜疑，散了也不要诋毁，所有一切只不过是在为自己的选择而买单。<br>有心者有所累，无心者无所谓。情出自愿，事过无悔，不负遇见，不谈亏欠。</li>
+<li>如果你和某个人在一起，能让你情绪稳定，让你敞开心扉，让你更自信更爱笑，更有好奇心去探索世界，那这个人就值得你去爱。<br>双向奔赴的爱情，是当你想奋不顾身地为一个人时，双方恰巧也在热情的回应你。<br>听过最温柔的一句话，小事你可以随便闹，大事往我身后靠，别哭，我懂。<br>一生很短，不过是朝暮与春秋；<br>一生所求，不过是温暖与相伴。</li>
+<li>人生啊，哪有什么两全之策，短短百年，不过是教人取舍罢了，手持烟火以某生，且停，且忘，且随风；且行，且看，且从容<br>人字有两撇，一撇写前半生，一捺写后半生，前半生写执着，后半生写释怀。<br>生活，一半烟火，一半清欢，人生，一半清醒，一半释然，不念过往，不畏将来，愿今后的日子，阳光清澈，世间皆温柔。</li>
+<li>铃声一响，青春开始流淌，我走在青春的路上，可它却容不下所有人的梦想，我只能一路跌跌撞撞，满身是伤，带着未知的答案，去寻找着属于我的梦想。</li>
+<li>山茶花读不懂白玫瑰，北山的风也吹不到南山尾。就像我始终也无法理解你的万里山河，抬头是风情万种的人间，闭眼是往昔一年又一年我们都在变，不是吗</li>
+</ul>
+</div></details>
+
+<details class="toggle" ><summary class="toggle-button" style="">诚</summary><div class="toggle-content"><ul>
+<li>我嘴笨，不会说话，但是想你，认真对你的心是真的，有时候词不达意，磕磕绊绊，希望你别介意，时间会证明我不是一时兴起！</li>
+</ul>
+</div></details>
+
+<details class="toggle" ><summary class="toggle-button" style="">奈</summary><div class="toggle-content"><ul>
+<li>洗了一个澡，换了一身衣服，出了门却不知道去哪儿，不知道找谁，漫无目的的走着，大概这就是成年人最深的孤独吧！<br>旧人不知我近况，新人不知我过往。<br>近况不该旧人知，过往不与新人讲。<br>纵你阅人何其多，再无一人恰似我。</li>
+</ul>
+</div></details>
+
+]]></content>
+      <categories>
+        <category>生活日常</category>
+      </categories>
+      <tags>
+        <tag>语录</tag>
+      </tags>
+  </entry>
+</search>
